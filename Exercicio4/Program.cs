@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Exercicio3 {
+namespace Exercicio4 {
     class Program {
         static void Main(string[] args) {
             //Vericador v1 = new Vericador();

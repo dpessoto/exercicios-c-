@@ -1,20 +1,17 @@
 ﻿using System;
 
-namespace Exercicio7 {
+namespace Exercicio8 {
     class Program {
         static void Main(string[] args) {
 
             Registro registro = new Registro();
 
-            int n1 = 1;
+            int n1 = 9;
             int n2;
 
             Console.WriteLine(registro.Ref01(2, 4));
-
-            Console.WriteLine(registro.Ref02(ref n1, out n2)); //qnd passdo por ref, 
-            //precisa inicializar a variavel, atribuindo algum valor, qnd passado por out, n precisa atribuir valor a variavel
-
-            Console.WriteLine(registro.Ref03(2, out n2));
+            Console.WriteLine(registro.Ref02(ref n1, out n2)); 
+            Console.WriteLine(registro.Ref03(5, out n2));
         }
     }
 

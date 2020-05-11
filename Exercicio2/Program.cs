@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Exercicio1 {
+namespace Exercicio2 {
 
     public class Calc {
         public int CalcY(int p1, int p2 = 3, int p3 = 4) {
